@@ -1,5 +1,8 @@
---Krystian £ukasiak
+--Krystian Â£ukasiak
 --Baza danych dla gabinetu stomatologicznego
+
+SET DATEFORMAT dmy;
+GO
 
 CREATE TABLE dane(
 	id_dane INTEGER NOT NULL PRIMARY KEY IDENTITY(1,1),
